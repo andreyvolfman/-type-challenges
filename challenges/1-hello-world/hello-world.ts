@@ -28,18 +28,4 @@
   > View on GitHub: https://tsch.js.org/13
 */
 
-/* _____________ Your Code Here _____________ */
-
-type HelloWorld = string; // expected to be a string
-
-/* _____________ Test Cases _____________ */
-import type { Equal, Expect, NotAny } from '../../utils';
-
-type cases = [Expect<NotAny<HelloWorld>>, Expect<Equal<HelloWorld, string>>];
-
-/* _____________ Further Steps _____________ */
-/*
-  > Share your solutions: https://tsch.js.org/13/answer
-  > View solutions: https://tsch.js.org/13/solutions
-  > More Challenges: https://tsch.js.org
-*/
+export type HelloWorld = string;
