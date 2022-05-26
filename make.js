@@ -23,8 +23,10 @@ const newChallenge = path.resolve(
 await promises.mkdir(newChallenge);
 await promises.mkdir(path.resolve(newChallenge, '__tests__'));
 
-await promises.open(path.resolve(newChallenge, `${challengeName}.ts`), 'w');
-await promises.open(
-    path.resolve(newChallenge, '__tests__', `${challengeName}.test.ts`),
-    'w'
-);
+await Promise.all([
+    promises.open(path.resolve(newChallenge, `${challengeName}.ts`), 'w'),
+    promises.open(
+        path.resolve(newChallenge, '__tests__', `${challengeName}.test.ts`),
+        'w'
+    ),
+]);
