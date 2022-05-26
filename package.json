@@ -1,25 +1,26 @@
 {
-  "name": "type-challenges",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "make": "node make.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andreyvolfman/type-challenges.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andreyvolfman/type-challenges/issues"
-  },
-  "homepage": "https://github.com/andreyvolfman/type-challenges#readme",
-  "devDependencies": {
-    "prettier": "2.6.2",
-    "ts-node": "^10.8.0",
-    "typescript": "^4.7.2"
-  }
+    "name": "type-challenges",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "make": "node make.js",
+        "format": "prettier --single-quote --tab-width=4 --no-config --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andreyvolfman/type-challenges.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/andreyvolfman/type-challenges/issues"
+    },
+    "homepage": "https://github.com/andreyvolfman/type-challenges#readme",
+    "devDependencies": {
+        "prettier": "2.6.2",
+        "ts-node": "^10.8.0",
+        "typescript": "^4.7.2"
+    }
 }
